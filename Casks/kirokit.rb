@@ -6,25 +6,25 @@ cask "kirokit" do
     end
   end
 
-  version "0.3.1"
+  version "0.4.0"
 
   on_macos do
     on_arm do
-      sha256 "9b3eeca9032b58af1f36249aedb63b0573077f46b07b12b14392606c1a2b68ec"
+      sha256 "d6a35fa98d7db27897f71c04f88df3bcf7e7e63335a3acebe8f2825f9ed402cf"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "5784e54da8a898120cbe165c0cd567e1e3d4ad729b164f31c1cac81a6055aedc"
+      sha256 "29d51748496d2338ca23a96361309f057b5b59e1e211022a3a50a6b3dc82c9f4"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "5e64d2a03d0d210031834070376ee1ed850d0e64e02a48d7366ba64b110c9c0b"
+      sha256 "b615eda3cc192f08bc0c984d39f6fb79831d710d13da643501c54c0e5e368f43"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "88f7b71da0bce0bbd6a6b30dd86c5dad0ed6d37949149ca6b1a4170e204232af"
+      sha256 "25f2edeea306c167fdfc4c6aeb251713c91ab6500d603627f44d6e6de79eaadc"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit_#{version}_linux_amd64.tar.gz"
     end
   end
