@@ -4,7 +4,7 @@ cask "kirokit-desktop" do
     run "/usr/bin/xattr", args: ["-dr", "com.apple.quarantine", "{{appdir}}/kirokit.app"]
   end
 
-  version "0.9.0"
+  version "0.9.1"
 
   on_macos do
     app "kirokit.app"
@@ -12,11 +12,11 @@ cask "kirokit-desktop" do
 
   on_macos do
     on_arm do
-      sha256 "1c5054e98ead81cc5e286eebff4f8f12e347a7018af1d745c2badfc2bcdb61e5"
+      sha256 "515ccf7ea7aa7fc38bd588ad7723660a94bcbed37ffcd2ef468ea52711169897"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit-desktop_#{version}_darwin_arm64.dmg"
     end
     on_intel do
-      sha256 "5b3885decd1dcd0b31ab680c54f40e6fbd4be01cd2276fc77bded47bbe964515"
+      sha256 "521b4a92d37f855fde36bd2f510c7bdf236af8b6c7458fa0874f600a289dc752"
       url "https://github.com/mavogel/kirokit/releases/download/v#{version}/kirokit-desktop_#{version}_darwin_amd64.dmg"
     end
   end
